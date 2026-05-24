@@ -5,9 +5,6 @@
   // Replace with your AIMIE WhatsApp number (international format, no + or spaces)
   var WHATSAPP_NUMBER = "35799123456";
 
-  // Meta Pixel ID — replace with your actual pixel ID
-  var META_PIXEL_ID = "YOUR_META_PIXEL_ID";
-
   var DEFAULT_MESSAGE =
     "Hi, I'm interested in AIMIE Body Rebirth Ritual. Can you tell me more and help me book?";
 
@@ -63,66 +60,43 @@
   // ─── Conversion tracking ─────────────────────────────────────────
   function trackWhatsAppClick(location) {
     var eventData = {
-      event: "whatsapp_click",
+      event: "lead",
       cta_location: location,
       page: "body_rebirth_ritual",
       tracking: getTrackingParams(),
     };
 
-    // Google Analytics 4 (gtag)
     if (typeof gtag === "function") {
-      gtag("event", "whatsapp_click", {
-        cta_location: location,
-        send_to: "AW-CONVERSION / GA4",
-      });
       gtag("event", "generate_lead", {
         method: "whatsapp",
         cta_location: location,
       });
     }
 
-    // Meta Pixel
     if (typeof fbq === "function") {
-      fbq("track", "Contact", { content_name: "Body Rebirth Ritual", cta_location: location });
-      fbq("trackCustom", "WhatsAppClick", { cta_location: location });
+      fbq("track", "Lead", {
+        content_name: "Body Rebirth Ritual",
+        cta_location: location,
+      });
     }
 
-    // dataLayer for GTM
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(eventData);
 
     if (typeof console !== "undefined" && console.debug) {
-      console.debug("[AIMIE] WhatsApp click tracked:", eventData);
+      console.debug("[AIMIE] Lead tracked (WhatsApp):", eventData);
     }
   }
 
   function handleWhatsAppClick(e) {
+    e.preventDefault();
     var link = e.currentTarget;
     var location = link.getAttribute("data-cta") || "unknown";
+    var url = buildWhatsAppUrl(getWhatsAppMessage());
     trackWhatsAppClick(location);
-    link.href = buildWhatsAppUrl(getWhatsAppMessage());
-  }
-
-  // ─── Init Meta Pixel (placeholder) ───────────────────────────────
-  if (META_PIXEL_ID && META_PIXEL_ID !== "YOUR_META_PIXEL_ID") {
-    !(function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = "2.0";
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-    fbq("init", META_PIXEL_ID);
-    fbq("track", "PageView");
+    window.setTimeout(function () {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }, 200);
   }
 
   function refreshWhatsAppLinks() {
