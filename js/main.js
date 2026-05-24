@@ -3,7 +3,7 @@
 
   // ─── Configuration ───────────────────────────────────────────────
   // Replace with your AIMIE WhatsApp number (international format, no + or spaces)
-  var WHATSAPP_NUMBER = "35799123456";
+  var WHATSAPP_NUMBER = "35799977871";
 
   var DEFAULT_MESSAGE =
     "Hi, I'm interested in AIMIE Body Rebirth Ritual. Can you tell me more and help me book?";
