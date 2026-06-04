@@ -13,7 +13,7 @@
       "hero.title": "Body Rebirth Ritual",
       "hero.subtitle": "3-step body recovery protocol: Heat → Stimulation → Cooling",
       "hero.text":
-        "A premium body treatment protocol designed to support drainage, skin tone and a lighter, more refined body feeling through three sequential technologies: Osmothermy, Endospheres and Cryotherapy.",
+        "Three technologies. One ritual. Osmothermy, Endospheres and Cryotherapy help work on body contours, skin quality and a feeling of lightness — just the way we love it at Aimie.",
       "hero.cta": "Book via WhatsApp",
       "hero.ctaNote": "Ask us if the protocol is right for you.",
       "hero.heat": "Heat",
@@ -24,7 +24,7 @@
       "problem.title": "When your body feels heavy, puffy or less toned",
       "problem.text":
         "Sometimes the issue is not only weight. Puffiness, sluggish microcirculation, fluid retention and reduced skin tone can make the body feel heavier and look less refined.",
-      "problem.b1": "Feeling of puffiness",
+      "problem.b1": "Body puffiness",
       "problem.b2": "Heavy legs or body",
       "problem.b3": "Less defined silhouette",
       "problem.b4": "Reduced skin tone",
@@ -145,7 +145,7 @@
       "hero.title": "Body Rebirth Ritual",
       "hero.subtitle": "Три этапа: тепло → стимуляция → охлаждение",
       "hero.text":
-        "Премиальный ритуал, в котором три технологии идут одна за другой и мягко поддерживают дренаж, тонус кожи и ощущение лёгкости — Осмотермия, Эндосфера и Криотерапия.",
+        "Три технологии. Один ритуал. Осмотермия, Эндосфера и Криотерапия помогают работать с контурами тела, качеством кожи и ощущением лёгкости — именно так, как мы любим в Aimie.",
       "hero.cta": "Записаться в WhatsApp",
       "hero.ctaNote": "Спросите нас — подойдёт ли этот ритуал именно вам.",
       "hero.heat": "Тепло",
@@ -156,7 +156,7 @@
       "problem.title": "Когда тело ощущается тяжёлым, отёчным и потерявшим лёгкость",
       "problem.text":
         "Иногда дело не только в весе. Отёчность, задержка жидкости, снижение тонуса кожи и замедленная микроциркуляция могут создавать ощущение тяжести и делать тело менее подтянутым визуально.",
-      "problem.b1": "Отёчность",
+      "problem.b1": "Отёчность тела",
       "problem.b2": "Тяжесть в ногах или во всём теле",
       "problem.b3": "Силуэт кажется менее чётким",
       "problem.b4": "Кожа теряет тонус",
