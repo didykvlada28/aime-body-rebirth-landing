@@ -5,12 +5,12 @@
 
   var translations = {
     en: {
-      "meta.title": "Body Rebirth Ritual | AIMIE — Premium Body Recovery Protocol",
+      "meta.title": "Cryotherapy | AIMIE — Premium Body Recovery Protocol",
       "meta.description":
         "AIMIE Body Rebirth Ritual — a premium 3-step body recovery protocol: Osmothermy, Endospheres and Cryotherapy. Book on WhatsApp. Cyprus.",
       "header.whatsapp": "WhatsApp",
       "hero.badge": "Premium Body Recovery Protocol",
-      "hero.title": "Body Rebirth Ritual",
+      "hero.title": "Cryotherapy",
       "hero.subtitle": "3-step body recovery protocol: Heat → Stimulation → Cooling",
       "hero.text":
         "Three technologies. One ritual. Osmothermy, Endospheres and Cryotherapy help work on body contours, skin quality and a feeling of lightness — just the way we love it at Aimie.",
@@ -137,12 +137,12 @@
       "alt.diagram": "Illustrative guide to skin tissue and drainage support",
     },
     ru: {
-      "meta.title": "Body Rebirth Ritual | AIMIE — премиальный ритуал ухода за телом",
+      "meta.title": "Cryotherapy | AIMIE — премиальный ритуал ухода за телом",
       "meta.description":
         "AIMIE Body Rebirth Ritual — премиальный трёхэтапный ритуал: Осмотермия, Эндосфера и Криотерапия. Запись в WhatsApp. Кипр.",
       "header.whatsapp": "WhatsApp",
       "hero.badge": "Премиальный ритуал ухода за телом",
-      "hero.title": "Body Rebirth Ritual",
+      "hero.title": "Cryotherapy",
       "hero.subtitle": "Три этапа: тепло → стимуляция → охлаждение",
       "hero.text":
         "Три технологии. Один ритуал. Осмотермия, Эндосфера и Криотерапия помогают работать с контурами тела, качеством кожи и ощущением лёгкости — именно так, как мы любим в Aimie.",
