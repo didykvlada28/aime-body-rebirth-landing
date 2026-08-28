@@ -2,11 +2,11 @@
   "use strict";
 
   // ─── Configuration ───────────────────────────────────────────────
-  // Replace with your AIMIE WhatsApp number (international format, no + or spaces)
+  // AIMIE WhatsApp number (international format, no + or spaces)
   var WHATSAPP_NUMBER = "35799977871";
 
   var DEFAULT_MESSAGE =
-    "Hi, I'm interested in AIMIE Body Rebirth Ritual. Can you tell me more and help me book?";
+    "Hi, I'm interested in Cryotherapy at AIMIE. Can you tell me more about availability and booking a session?";
 
   // ─── UTM & click-id preservation ─────────────────────────────────
   function getTrackingParams() {
@@ -62,7 +62,7 @@
     var eventData = {
       event: "lead",
       cta_location: location,
-      page: "body_rebirth_ritual",
+      page: "cryotherapy",
       tracking: getTrackingParams(),
     };
 
@@ -75,7 +75,7 @@
 
     if (typeof fbq === "function") {
       fbq("track", "Lead", {
-        content_name: "Body Rebirth Ritual",
+        content_name: "Cryotherapy",
         cta_location: location,
       });
     }

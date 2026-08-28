@@ -5,268 +5,325 @@
 
   var translations = {
     en: {
-      "meta.title": "Cryotherapy | AIMIE — Premium Body Recovery Protocol",
+      // Meta & Header
+      "meta.title": "Cryotherapy | AIMIE — Sports & Athletic Recovery in Cyprus",
       "meta.description":
-        "AIMIE Body Rebirth Ritual — a premium 3-step body recovery protocol: Osmothermy, Endospheres and Cryotherapy. Book on WhatsApp. Cyprus.",
-      "header.whatsapp": "WhatsApp",
-      "hero.badge": "Premium Body Recovery Protocol",
-      "hero.title": "Cryotherapy",
-      "hero.subtitle": "3-step body recovery protocol: Heat → Stimulation → Cooling",
+        "Whole-body cryotherapy designed for active bodies, athletes and gym-goers at AIMIE Cyprus. Support muscle recovery, reduce post-workout soreness and recharge faster.",
+      "header.whatsapp": "Book Cryotherapy",
+
+      // Hero
+      "hero.eyebrow": "CRYOTHERAPY · SPORTS RECOVERY",
+      "hero.title": "TRAIN HARD. RECOVER SMARTER.",
       "hero.text":
-        "Three technologies. One ritual. Osmothermy, Endospheres and Cryotherapy help work on body contours, skin quality and a feeling of lightness — just the way we love it at Aimie.",
-      "hero.cta": "Book via WhatsApp",
-      "hero.ctaNote": "Ask us if the protocol is right for you.",
-      "hero.heat": "Heat",
-      "hero.stimulation": "Stimulation",
-      "hero.cooling": "Cooling",
-      "hero.formulaLabel": "Protocol sequence",
-      "problem.label": "Understanding the feeling",
-      "problem.title": "When your body feels heavy, puffy or less toned",
+        "Whole-body cryotherapy designed for active bodies — helping support post-training recovery, reduce the feeling of muscle soreness and leave you feeling refreshed and ready for what’s next.",
+      "hero.cta": "Book Cryotherapy",
+      "hero.ctaNote": "Message us on WhatsApp to ask whether cryotherapy is right for your training routine.",
+      "hero.tag1": "Whole-Body Cold",
+      "hero.tag2": "Guided Session",
+      "hero.tag3": "Solo & Duo Options",
+
+      // Problem / Desire
+      "problem.eyebrow": "WHEN TRAINING DOESN’T STOP",
+      "problem.title": "YOUR TRAINING ENDS. RECOVERY STARTS.",
       "problem.text":
-        "Sometimes the issue is not only weight. Puffiness, sluggish microcirculation, fluid retention and reduced skin tone can make the body feel heavier and look less refined.",
-      "problem.b1": "Body puffiness",
-      "problem.b2": "Heavy legs or body",
-      "problem.b3": "Less defined silhouette",
-      "problem.b4": "Reduced skin tone",
-      "problem.b5": "Uneven-looking skin texture",
-      "problem.b6": "Desire to feel lighter and more confident",
-      "problem.cta": "Want to understand if this protocol fits you? Message us on WhatsApp",
-      "solution.label": "The protocol",
-      "solution.title": "One ritual. Three technologies. One recovery flow.",
-      "solution.text":
-        "AIMIE Body Rebirth Ritual combines three stages that work together in sequence: warming, stimulation and cooling.",
-      "solution.stage1": "Stage 1",
-      "solution.stage2": "Stage 2",
-      "solution.stage3": "Stage 3",
-      "solution.osmo.title": "Osmothermy",
-      "solution.osmo.tag": "Warm preparation",
-      "solution.osmo.text":
-        "Gentle heat helps prepare the body, relax the tissues and support microcirculation.",
-      "solution.endo.title": "Endospheres",
-      "solution.endo.tag": "Drainage & tone support",
-      "solution.endo.text":
-        "Mechanical stimulation helps support lymphatic drainage, tissue mobility and skin tone.",
-      "solution.cryo.title": "Cryotherapy",
-      "solution.cryo.tag": "Cooling recovery",
-      "solution.cryo.text":
-        "Controlled cooling helps refresh the body and complete the recovery protocol.",
-      "how.label": "The sequence",
-      "how.title": "Heat → Stimulation → Cooling",
-      "how.text":
-        "The protocol is designed as a complete body recovery sequence. First, the body is prepared with warmth. Then, tissue stimulation supports movement and drainage. Finally, cooling recovery leaves the body feeling fresh, lighter and restored.",
-      "how.s1.title": "Heat — Osmothermy",
-      "how.s1.text":
-        "Warm preparation relaxes tissues and supports microcirculation before stimulation.",
-      "how.s2.title": "Stimulation — Endospheres",
-      "how.s2.text":
-        "Rhythmic mechanical stimulation supports drainage, mobility and skin tone.",
-      "how.s3.title": "Cooling — Cryotherapy",
-      "how.s3.text":
-        "Controlled cooling completes the ritual with freshness and a feeling of lightness.",
-      "benefits.label": "Designed to support",
-      "benefits.title": "What the protocol is designed to support",
-      "benefits.b1": "Drainage support",
-      "benefits.b2": "Feeling of lightness",
-      "benefits.b3": "Skin tone support",
-      "benefits.b4": "Smoother-looking skin",
-      "benefits.b5": "More refined silhouette",
-      "benefits.b6": "Body recovery & freshness",
+        "Hard sessions can leave muscles feeling sore, heavy and fatigued. True progress is what happens between one performance and the next. Cryotherapy is an efficient, targeted tool to make recovery an intentional part of your routine.",
+      "problem.c1.title": "SORE MUSCLES",
+      "problem.c1.text": "After intense lifting, CrossFit or high-volume sets.",
+      "problem.c2.title": "HEAVY LEGS",
+      "problem.c2.text": "After long runs, hard cycling sessions or leg day.",
+      "problem.c3.title": "TRAINING FATIGUE",
+      "problem.c3.text": "When your nervous system and body need a rapid reset.",
+      "problem.c4.title": "NEXT SESSION READY",
+      "problem.c4.text": "When you want to feel agile and ready to move at 100%.",
+      "problem.cta": "Ask how cryotherapy fits your training split",
+
+      // Science / Why Athletes Turn To Cold
+      "science.eyebrow": "THE PRINCIPLE",
+      "science.title": "WHY ATHLETES TURN TO COLD",
+      "science.text":
+        "Intense training creates natural micro-stress in muscle fibers. Cryotherapy exposes the body to controlled cold for a brief window, triggering an immediate physiological response: vasoconstriction, metabolic stimulation and a surge of oxygen-rich blood return upon stepping out.",
+      "science.loopLabel": "THE PERFORMANCE LOOP",
+      "science.step1": "TRAIN",
+      "science.step1.desc": "Push your limits in the gym, on the track or court.",
+      "science.step2": "RECOVER",
+      "science.step2.desc": "Trigger deep physiological reset with controlled cold.",
+      "science.step3": "PERFORM",
+      "science.step3.desc": "Step into your next workout refreshed and agile.",
+      "science.step4": "REPEAT",
+      "science.step4.desc": "Build sustainable progress without training burnout.",
+
+      // Benefits
+      "benefits.eyebrow": "PERFORMANCE & RECOVERY",
+      "benefits.title": "WHAT CRYOTHERAPY BRINGS TO YOUR ROUTINE",
+      "benefits.subtitle":
+        "Focused, responsible benefits for athletes and active individuals who take recovery seriously.",
+      "benefits.b1.title": "MUSCLE RECOVERY",
+      "benefits.b1.text":
+        "Supports muscle recovery after demanding strength, endurance and functional sessions.",
+      "benefits.b2.title": "LESS POST-WORKOUT SORENESS",
+      "benefits.b2.text":
+        "May help reduce the perception of muscle tightness and DOMS following intense exercise.",
+      "benefits.b3.title": "RECOVERY FROM FATIGUE",
+      "benefits.b3.text":
+        "Controlled cold exposure delivers an immediate, energizing sensation throughout the body.",
+      "benefits.b4.title": "INFLAMMATORY RESPONSE",
+      "benefits.b4.text":
+        "Cryotherapy has been studied for its supporting role in post-exercise inflammation markers.",
+      "benefits.b5.title": "READY FOR WHAT’S NEXT",
+      "benefits.b5.text":
+        "Designed to complement the recovery window so you return to your next workout feeling restored.",
+      "benefits.b6.title": "MENTAL RESET",
+      "benefits.b6.text":
+        "The short, intense cold experience triggers endorphin release, leaving you alert and revitalized.",
       "benefits.note":
-        "Results and sensations may vary depending on the body, lifestyle and number of sessions.",
-      "results.label": "Tissue support",
-      "results.title": "Smoother-looking skin texture",
-      "results.text":
-        "Supported drainage and tissue mobility may contribute to a more refined skin appearance over time.",
-      "results.note": "Illustrative guide only. Individual results and sensations vary.",
-      "emotional.label": "A ritual, not a routine",
-      "emotional.title": "A ritual for women who want to feel lighter in their body",
-      "emotional.text":
-        "Body Rebirth Ritual is created for women who want a smarter, more pleasant and non-aggressive approach to body care. It is not only about appearance — it is about the feeling of returning to your body with more lightness, freshness and confidence.",
-      "who.label": "Personal fit",
-      "who.title": "Is this protocol for you?",
-      "who.text": "This treatment may be suitable if you:",
-      "who.b1": "feel puffiness or heaviness in the body",
-      "who.b2": "want to support skin tone",
-      "who.b3": "want a more refined body feeling",
-      "who.b4": "prefer non-invasive body care",
-      "who.b5": "are looking for a premium recovery ritual",
-      "who.b6": "want to prepare your body before an event, vacation or season",
-      "who.cta": "Ask us on WhatsApp",
-      "trust.label": "Why AIMIE",
-      "trust.title": "Why AIMIE",
+        "Cryotherapy is a wellness recovery modality designed to complement an active lifestyle and structured training routine.",
+
+      // How It Feels
+      "experience.eyebrow": "THE EXPERIENCE",
+      "experience.title": "A FEW MINUTES OF COLD. A DIFFERENT KIND OF RESET.",
+      "experience.subtitle":
+        "If you're trying cryotherapy for the first time, our specialists guide you through every second of the session. It is short, dry and comfortable.",
+      "experience.step1.badge": "BEFORE",
+      "experience.step1.title": "Briefing & Protective Gear",
+      "experience.step1.text":
+        "We explain the process, confirm your readiness, and provide specialized gloves, socks, slippers and headband for your extremities.",
+      "experience.step2.badge": "COLD",
+      "experience.step2.title": "The Cold Chamber",
+      "experience.step2.text":
+        "Step into our advanced whole-body chamber with dry chilled air. The cold is crisp and energizing, with our specialist right outside.",
+      "experience.step3.badge": "AFTER",
+      "experience.step3.title": "Instant Warmth & Energy",
+      "experience.step3.text":
+        "Step out to an immediate rush of blood flow, deep muscular lightness, clear focus and renewed energy for the rest of your day.",
+      "experience.duoTitle": "SOLO & DUO SESSIONS AVAILABLE",
+      "experience.duoText":
+        "Train together, recover together. Book a duo cryotherapy session with your training partner or spouse at AIMIE.",
+      "experience.cta": "Book a Session on WhatsApp",
+
+      // Who Is It For
+      "who.eyebrow": "BUILT FOR ACTIVE BODIES",
+      "who.title": "DESIGNED FOR EVERY DISCIPLINE",
+      "who.subtitle":
+        "From heavy lifting to marathon miles and high-paced racket sports.",
+      "who.cat1.title": "STRENGTH & POWER",
+      "who.cat1.tags": "Gym · Weight Training · CrossFit · Hyrox · Powerlifting",
+      "who.cat1.desc": "For lifters looking to ease muscle fatigue and stay consistent on heavy splits.",
+      "who.cat2.title": "ENDURANCE",
+      "who.cat2.tags": "Running · Cycling · Triathlon · Swimming · Track",
+      "who.cat2.desc": "For runners and cyclists managing high weekly mileage and leg heaviness.",
+      "who.cat3.title": "SPORT & AGILITY",
+      "who.cat3.tags": "Padel · Tennis · Football · Basketball · Martial Arts",
+      "who.cat3.desc": "For competitive players wanting fast turnaround between intense matches.",
+      "who.cat4.title": "ACTIVE LIFESTYLE",
+      "who.cat4.tags": "Daily Fitness · High Work Volume · Wellness Routine",
+      "who.cat4.desc": "For anyone who values peak daily energy, body resilience and mental clarity.",
+      "who.banner": "You don’t need to be a professional athlete to take recovery seriously.",
+      "who.cta": "Book Your Recovery",
+
+      // Philosophy
+      "philosophy.eyebrow": "AIMIE PHILOSOPHY",
+      "philosophy.title": "RECOVERY IS PART OF THE TRAINING.",
+      "philosophy.p1":
+        "Progress doesn’t happen only while you train. What you do between sessions matters just as much.",
+      "philosophy.p2":
+        "Cryotherapy gives you a dedicated moment to switch from exertion to regeneration — so taking care of your body becomes a deliberate competitive advantage, not an afterthought.",
+      "philosophy.quote": "“Most people push hard in training. The ones who excel know how to recover.”",
+
+      // Why AIMIE
+      "trust.eyebrow": "THE AIMIE STANDARD",
+      "trust.title": "PREMIUM RECOVERY IN CYPRUS",
       "trust.text":
-        "At AIMIE, every body protocol is selected with attention to the client's goals, comfort and condition. Before booking, you can message us on WhatsApp — we will explain the protocol, answer your questions and help you decide if it is suitable for you.",
-      "trust.t1": "Premium aesthetic clinic",
-      "trust.t1d": "A calm, refined environment designed for comfort and privacy.",
-      "trust.t2": "Professional team",
-      "trust.t2d": "Experienced specialists who guide you through every stage of the ritual.",
-      "trust.t3": "Modern technologies",
-      "trust.t3d": "Osmothermy, Endospheres and Cryotherapy — combined in one seamless protocol.",
-      "trust.t4": "Personalized approach",
-      "trust.t4d": "We listen to your goals and help you choose the right care for your body.",
-      "trust.t5": "Calm & private atmosphere",
-      "trust.t5d": "A quiet, unhurried space where you can fully relax and restore.",
-      "faq.label": "Questions",
-      "faq.title": "Frequently asked",
-      "faq.q1": "How long does the Body Rebirth Ritual take?",
-      "faq.a1":
-        "The full protocol typically takes around 60–90 minutes, including all three stages. We will confirm the exact timing when you message us on WhatsApp.",
-      "faq.q2": "Is the protocol painful or aggressive?",
-      "faq.a2":
-        "No. Body Rebirth Ritual is designed as a gentle, non-invasive recovery experience. Each stage is adjusted to your comfort.",
-      "faq.q3": "How many sessions are recommended?",
-      "faq.a3":
-        "This depends on your body and goals. Many clients start with a course of sessions. We will recommend a plan after a brief consultation on WhatsApp.",
-      "faq.q4": "Will I lose weight or remove cellulite permanently?",
-      "faq.a4":
-        "Body Rebirth Ritual is a body recovery protocol — not a weight-loss treatment. It supports drainage, skin tone and a lighter body feeling. Results vary from person to person.",
-      "faq.q5": "Where is AIMIE located?",
-      "faq.a5":
-        "AIMIE is based in Cyprus. Message us on WhatsApp for the exact location, directions and available appointment times.",
-      "final.title": "Ready to feel lighter, fresher and more connected to your body?",
+        "At AIMIE, whole-body cryotherapy is delivered in a calm, private and refined clinical atmosphere with individual attention to your training goals.",
+      "trust.t1.title": "CONTROLLED CHAMBER",
+      "trust.t1.text": "Advanced electric whole-body cryotherapy technology with precision temperature control and optimal safety.",
+      "trust.t2.title": "GUIDED BY SPECIALISTS",
+      "trust.t2.text": "Our team prepares you, provides all gear, and stays by your side throughout the entire session.",
+      "trust.t3.title": "CALM & PRIVATE SETTING",
+      "trust.t3.text": "A refined aesthetic space in Cyprus where you can recharge without gym noise or distractions.",
+      "trust.t4.title": "PERSONALIZED ROUTINE",
+      "trust.t4.text": "Solo or duo sessions scheduled to fit your workout routine, race prep or rest days.",
+
+      // Final CTA
+      "final.eyebrow": "YOUR NEXT SESSION STARTS WITH RECOVERY",
+      "final.title": "TRAIN. RECOVER. GO AGAIN.",
       "final.text":
-        "Message AIMIE on WhatsApp to learn more about Body Rebirth Ritual and book your consultation.",
-      "final.note": "We typically reply within a few hours.",
-      "footer.text": "Premium body recovery & aesthetic care · Cyprus",
+        "Make whole-body cryotherapy part of your weekly recovery routine at AIMIE. Message us on WhatsApp to book your session or ask any questions.",
+      "final.cta": "Book Cryotherapy on WhatsApp",
+      "final.note": "Direct chat with AIMIE specialists · Quick response · Cyprus",
+
+      // Sticky Mobile & Footer
+      "sticky.cta": "Book Cryotherapy",
+      "footer.text": "Whole-Body Cryotherapy · Sports & Athletic Recovery · Cyprus",
       "wa.message":
-        "Hi, I'm interested in AIMIE Body Rebirth Ritual. Can you tell me more and help me book?",
-      "alt.hero": "Premium body treatment at AIMIE clinic",
-      "alt.osmo": "Warm osmothermy preparation with steam and beige towels",
-      "alt.composite": "AIMIE Body Rebirth Ritual — Osmothermy, Endospheres and Cryotherapy",
-      "alt.explainer": "Body Rebirth Ritual — Heat, Stimulation and Cooling",
-      "alt.diagram": "Illustrative guide to skin tissue and drainage support",
+        "Hi, I'm interested in Cryotherapy at AIMIE. Can you tell me more about availability and booking a session?",
+
+      // Image Alt Texts
+      "alt.hero": "Athletes in whole-body cryotherapy cold chamber at AIMIE",
+      "alt.problem": "Athletic training in gym — treadmill and strength workout",
+      "alt.chamber": "Modern whole-body cryotherapy chamber with blue ambient lighting",
+      "alt.duo": "Athletes experiencing a duo cryotherapy session in cold mist",
+      "alt.athlete": "Athletic client ready for cryotherapy recovery session",
     },
+
     ru: {
-      "meta.title": "Cryotherapy | AIMIE — премиальный ритуал ухода за телом",
+      // Meta & Header
+      "meta.title": "Криотерапия | AIMIE — Спортивное восстановление на Кипре",
       "meta.description":
-        "AIMIE Body Rebirth Ritual — премиальный трёхэтапный ритуал: Осмотермия, Эндосфера и Криотерапия. Запись в WhatsApp. Кипр.",
-      "header.whatsapp": "WhatsApp",
-      "hero.badge": "Премиальный ритуал ухода за телом",
-      "hero.title": "Cryotherapy",
-      "hero.subtitle": "Три этапа: тепло → стимуляция → охлаждение",
+        "Общая криотерапия для спортсменов, любителей фитнеса и активных людей в AIMIE на Кипре. Восстановление мышц, снижение крепатуры и быстрая перезагрузка.",
+      "header.whatsapp": "Записаться на крио",
+
+      // Hero
+      "hero.eyebrow": "КРИОТЕРАПИЯ · СПОРТИВНОЕ ВОССТАНОВЛЕНИЕ",
+      "hero.title": "ТРЕНИРУЙТЕСЬ НА МАКСИМУМЕ. ВОССТАНАВЛИВАЙТЕСЬ ГРАМОТНО.",
       "hero.text":
-        "Три технологии. Один ритуал. Осмотермия, Эндосфера и Криотерапия помогают работать с контурами тела, качеством кожи и ощущением лёгкости — именно так, как мы любим в Aimie.",
-      "hero.cta": "Записаться в WhatsApp",
-      "hero.ctaNote": "Спросите нас — подойдёт ли этот ритуал именно вам.",
-      "hero.heat": "Тепло",
-      "hero.stimulation": "Стимуляция",
-      "hero.cooling": "Охлаждение",
-      "hero.formulaLabel": "Этапы ритуала",
-      "problem.label": "Вам это знакомо",
-      "problem.title": "Когда тело ощущается тяжёлым, отёчным и потерявшим лёгкость",
+        "Общая криотерапия всего тела для активных людей — поддержка мышц после нагрузок, снижение ощущения забитости и готовность к следующей тренировке.",
+      "hero.cta": "Записаться на криотерапию",
+      "hero.ctaNote": "Напишите нам в WhatsApp — ответим на все вопросы о криотерапии для вашего тренировочного графика.",
+      "hero.tag1": "Холод для всего тела",
+      "hero.tag2": "Контроль специалиста",
+      "hero.tag3": "Соло и парные сеансы",
+
+      // Problem / Desire
+      "problem.eyebrow": "КОГДА ТРЕНИРОВКИ НЕ ОСТАНАВЛИВАЮТСЯ",
+      "problem.title": "ТРЕНИРОВКА ЗАКОНЧИЛАСЬ. НАЧИНАЕТСЯ ВОССТАНОВЛЕНИЕ.",
       "problem.text":
-        "Иногда дело не только в весе. Отёчность, задержка жидкости, снижение тонуса кожи и замедленная микроциркуляция могут создавать ощущение тяжести и делать тело менее подтянутым визуально.",
-      "problem.b1": "Отёчность тела",
-      "problem.b2": "Тяжесть в ногах или во всём теле",
-      "problem.b3": "Силуэт кажется менее чётким",
-      "problem.b4": "Кожа теряет тонус",
-      "problem.b5": "Неровная текстура кожи",
-      "problem.b6": "Хочется чувствовать себя легче и увереннее",
-      "problem.cta": "Хотите понять, подойдёт ли вам этот ритуал? Напишите нам в WhatsApp",
-      "solution.label": "Протокол",
-      "solution.title": "Один ритуал. Три технологии. Одна цельная программа.",
-      "solution.text":
-        "AIMIE Body Rebirth Ritual — три этапа, которые плавно сменяют друг друга: сначала тепло, затем стимуляция, в завершение — охлаждение.",
-      "solution.stage1": "Этап 1",
-      "solution.stage2": "Этап 2",
-      "solution.stage3": "Этап 3",
-      "solution.osmo.title": "Осмотермия",
-      "solution.osmo.tag": "Тёплая подготовка",
-      "solution.osmo.text":
-        "Мягкое тепло подготавливает тело, расслабляет ткани и способствует микроциркуляции.",
-      "solution.endo.title": "Эндосфера",
-      "solution.endo.tag": "Дренаж и тонус",
-      "solution.endo.text":
-        "Ритмичная стимуляция мягко активизирует лимфодренаж, улучшает подвижность тканей и поддерживает тонус кожи.",
-      "solution.cryo.title": "Криотерапия",
-      "solution.cryo.tag": "Завершающее охлаждение",
-      "solution.cryo.text":
-        "Деликатное охлаждение освежает тело и завершает ритуал.",
-      "how.label": "Как это устроено",
-      "how.title": "Тепло → Стимуляция → Охлаждение",
-      "how.text":
-        "Ритуал выстроен как единая программа: сначала тепло подготавливает тело, затем стимуляция поддерживает дренаж и мягко воздействует на ткани, а в конце охлаждение дарит свежесть и ощущение лёгкости.",
-      "how.s1.title": "Тепло — Осмотермия",
-      "how.s1.text":
-        "Тёплая подготовка расслабляет ткани и способствует микроциркуляции перед стимуляцией.",
-      "how.s2.title": "Стимуляция — Эндосфера",
-      "how.s2.text":
-        "Ритмичная стимуляция поддерживает дренаж, улучшает подвижность тканей и тонус кожи.",
-      "how.s3.title": "Охлаждение — Криотерапия",
-      "how.s3.text":
-        "Деликатное охлаждение завершает ритуал, даря свежесть и ощущение лёгкости.",
-      "benefits.label": "Поддержка тела",
-      "benefits.title": "Протокол создан для поддержки тела",
-      "benefits.b1": "Поддержка дренажа",
-      "benefits.b2": "Ощущение лёгкости",
-      "benefits.b3": "Тонус кожи",
-      "benefits.b4": "Более ровная и гладкая кожа",
-      "benefits.b5": "Более утончённый силуэт",
-      "benefits.b6": "Свежесть и восстановление",
+        "Тяжёлые подходы, беговые объёмы и интенсивные интервалы оставляют в мышцах усталость и скованность. Настоящий прогресс происходит в промежутке между тренировками. Криотерапия помогает сделать восстановление системным.",
+      "problem.c1.title": "МЫШЕЧНАЯ ЗАБИТОСТЬ",
+      "problem.c1.text": "После силовой работы с весами, кроссфита и тяжёлых тренировок.",
+      "problem.c2.title": "ТЯЖЕСТЬ В НОГАХ",
+      "problem.c2.text": "После длительного бега, сайклинга или дня ног.",
+      "problem.c3.title": "ОБЩАЯ УСТАЛОСТЬ",
+      "problem.c3.text": "Когда нервной системе и телу требуется быстрая перезагрузка.",
+      "problem.c4.title": "ГОТОВНОСТЬ К СЛЕДУЮЩЕМУ ДНЮ",
+      "problem.c4.text": "Когда важно выйти на следующую тренировку свежим и заряженным.",
+      "problem.cta": "Узнать, как встроить криотерапию в ваш график тренировок",
+
+      // Science / Why Athletes Turn To Cold
+      "science.eyebrow": "ПРИНЦИП ДЕЙСТВИЯ",
+      "science.title": "ПОЧЕМУ СПОРТСМЕНЫ ВЫБИРАЮТ ХОЛОД",
+      "science.text":
+        "Интенсивный тренинг создаёт естественный микростресс в мышечных волокнах. Кратковременное воздействие сухого контролируемого холода запускает физиологический отклик: сужение сосудов с последующим мощным притоком обогащённой кислородом крови после выхода из камеры.",
+      "science.loopLabel": "ЦИКЛ ПРОГРЕССА",
+      "science.step1": "ТРЕНИРОВКА",
+      "science.step1.desc": "Выкладывайтесь на максимум в зале, на треке или корте.",
+      "science.step2": "ВОССТАНОВЛЕНИЕ",
+      "science.step2.desc": "Запускайте физиологическую перезагрузку холодом.",
+      "science.step3": "РЕЗУЛЬТАТ",
+      "science.step3.desc": "Возвращайтесь к тренировкам бодрыми и готовыми к росту.",
+      "science.step4": "ПОВТОР",
+      "science.step4.desc": "Прогрессируйте без накопленного истощения и перетренированности.",
+
+      // Benefits
+      "benefits.eyebrow": "ЭФФЕКТИВНОСТЬ И ВОССТАНОВЛЕНИЕ",
+      "benefits.title": "ЧТО ДАЁТ КРИОТЕРАПИЯ АКТИВНОМУ ТЕЛУ",
+      "benefits.subtitle":
+        "Осознанные и научно обоснованные эффекты для спортсменов и всех, кто тренируется регулярно.",
+      "benefits.b1.title": "ВОССТАНОВЛЕНИЕ МЫШЦ",
+      "benefits.b1.text":
+        "Поддерживает регенерацию мышечных тканей после силовых, интервальных и функциональных нагрузок.",
+      "benefits.b2.title": "СНИЖЕНИЕ КРЕПАТУРЫ",
+      "benefits.b2.text":
+        "Помогает уменьшить ощущение боли, забитости и скованности в мышцах после тяжёлой работы.",
+      "benefits.b3.title": "СНЯТИЕ УСТАЛОСТИ",
+      "benefits.b3.text":
+        "Контролируемый холод дарит мгновенное ощущение лёгкости, тонуса и перезагрузки всего тела.",
+      "benefits.b4.title": "ПОДДЕРЖКА ПРИ ВОСПАЛЕНИЯХ",
+      "benefits.b4.text":
+        "Холод активно исследуется за его положительное влияние на маркеры микроповреждений после физических упражнений.",
+      "benefits.b5.title": "ГОТОВНОСТЬ К СЛЕДУЮЩИМ НАГРУЗКАМ",
+      "benefits.b5.text":
+        "Оптимизирует окно восстановления, позволяя продуктивно продолжать тренировочный сплит.",
+      "benefits.b6.title": "МЕНТАЛЬНАЯ ПЕРЕЗАГРУЗКА",
+      "benefits.b6.text":
+        "Сеанс холода стимулирует выброс эндорфинов, дарит ясность ума, прилив бодрости и энергии.",
       "benefits.note":
-        "Ощущения и результаты могут отличаться — всё зависит от особенностей организма, образа жизни и количества сеансов.",
-      "results.label": "Тонус и текстура",
-      "results.title": "Более ровная текстура кожи",
-      "results.text":
-        "Поддержка дренажа и мягкого воздействия на ткани со временем может сделать кожу более ровной и ухоженной.",
-      "results.note": "Материал носит иллюстративный характер. Результаты и ощущения индивидуальны.",
-      "emotional.label": "Ритуал, а не процедура",
-      "emotional.title": "Ритуал для женщин, которые хотят чувствовать своё тело легче",
-      "emotional.text":
-        "Body Rebirth Ritual создан для женщин, которым важен деликатный, приятный и ненавязчивый уход за телом. Это не только про внешность — это про близость к себе, лёгкость, свежесть и уверенность.",
-      "who.label": "Вам это подойдёт?",
-      "who.title": "Этот ритуал для вас?",
-      "who.text": "Он может подойти, если вы:",
-      "who.b1": "чувствуете отёчность или тяжесть в теле",
-      "who.b2": "хотите поддержать тонус кожи",
-      "who.b3": "хотите, чтобы тело ощущалось легче и утончённее",
-      "who.b4": "предпочитаете деликатный, неинвазивный уход",
-      "who.b5": "ищете премиальный ритуал восстановления",
-      "who.b6": "готовитесь к событию, отпуску или новому сезону",
-      "who.cta": "Напишите нам в WhatsApp",
-      "trust.label": "Почему AIMIE",
-      "trust.title": "Почему AIMIE",
+        "Криотерапия — это премиальный метод восстановления, дополняющий грамотный тренировочный план и здоровый образ жизни.",
+
+      // How It Feels
+      "experience.eyebrow": "КАК ПРОХОДИТ СЕАНС",
+      "experience.title": "НЕСКОЛЬКО МИНУТ ХОЛОДА. НОВЫЙ УРОВЕНЬ ПЕРЕЗАГРУЗКИ.",
+      "experience.subtitle":
+        "Если вы пробуете криотерапию впервые — процесс полностью контролируется специалистом. Сухой холод ощущается бодрящим и переносится комфортно.",
+      "experience.step1.badge": "ПОДГОТОВКА",
+      "experience.step1.title": "Инструктаж и экипировка",
+      "experience.step1.text":
+        "Мы объясняем все этапы, проверяем самочувствие и выдаём мягкие перчатки, повязку, носочки и обувь для защиты конечностей.",
+      "experience.step2.badge": "СЕАНС ХОЛОДА",
+      "experience.step2.title": "Погружение в криокамеру",
+      "experience.step2.text":
+        "Короткий сеанс в современной камере с сухим охлаждённым воздухом. Специалист находится рядом и поддерживает связь каждую секунду.",
+      "experience.step3.badge": "ПОСЛЕ СЕАНСА",
+      "experience.step3.title": "Прилив тепла и энергии",
+      "experience.step3.text":
+        "Вы выходите с приятной волной тепла по всему телу, ощущением глубокой лёгкости в мышцах и ясной головой.",
+      "experience.duoTitle": "ИНДИВИДУАЛЬНЫЕ И ПАРНЫЕ СЕАНСЫ",
+      "experience.duoText":
+        "Тренируетесь вместе — восстанавливайтесь вместе. В AIMIE доступны парные сеансы криотерапии для тренировочных партнёров и пар.",
+      "experience.cta": "Записаться на сеанс в WhatsApp",
+
+      // Who Is It For
+      "who.eyebrow": "ДЛЯ КОГО",
+      "who.title": "ПОДХОДИТ ДЛЯ ЛЮБОЙ ДИСЦИПЛИНЫ",
+      "who.subtitle":
+        "От силового тренинга и кроссфита до бега, велоспорта и динамичных игровых видов.",
+      "who.cat1.title": "СИЛА И ТЯЖЁЛЫЙ ТРЕНИНГ",
+      "who.cat1.tags": "Тренажёрный зал · Кроссфит · Hyrox · Пауэрлифтинг",
+      "who.cat1.desc": "Для атлетов, стремящихся снизить усталость в мышцах и сохранять стабильность в тяжёлых циклах.",
+      "who.cat2.title": "ЦИКЛИЧЕСКИЙ СПОРТ",
+      "who.cat2.tags": "Бег · Велоспорт · Триатлон · Плавание · Трек",
+      "who.cat2.desc": "Для бегунов и триатлетов при больших недельных километражах и ощущении тяжёлых ног.",
+      "who.cat3.title": "ИГРОВЫЕ ВИДЫ И ДИНАМИКА",
+      "who.cat3.tags": "Падел · Теннис · Футбол · Баскетбол · Единоборства",
+      "who.cat3.desc": "Для игроков, которым необходимо быстро приходить в тонус между интенсивными матчами.",
+      "who.cat4.title": "АКТИВНЫЙ ОБРАЗ ЖИЗНИ",
+      "who.cat4.tags": "Регулярный спорт · Плотный график · Забота о ресурсе",
+      "who.cat4.desc": "Для всех, кто ценит высокий уровень энергии, устойчивость тела к стрессу и продуктивность.",
+      "who.banner": "Вам не обязательно быть профессиональным спортсменом, чтобы относиться к восстановлению серьёзно.",
+      "who.cta": "Записаться на восстановление",
+
+      // Philosophy
+      "philosophy.eyebrow": "ФИЛОСОФИЯ AIMIE",
+      "philosophy.title": "ВОССТАНОВЛЕНИЕ — ЭТО ЧАСТЬ ТРЕНИРОВКИ.",
+      "philosophy.p1":
+        "Прогресс создаётся не только во время выполнения подходов. То, как вы восстанавливаетесь между нагрузками, определяет результат.",
+      "philosophy.p2":
+        "Криотерапия даёт телу чёткий момент переключения от стресса к регенерации. Осознанная забота о мышцах становится вашим конкурентным преимуществом.",
+      "philosophy.quote": "«Многие умеют тяжело тренироваться. До вершин доходят те, кто умеет восстанавливаться».",
+
+      // Why AIMIE
+      "trust.eyebrow": "СТАНДАРТ AIMIE",
+      "trust.title": "ПРЕМИАЛЬНЫЙ ЦЕНТР ВОССТАНОВЛЕНИЯ НА КИПРЕ",
       "trust.text":
-        "В AIMIE каждый протокол подбирается с учётом ваших целей, комфорта и состояния. Перед записью напишите нам в WhatsApp — расскажем о ритуале, ответим на вопросы и поможем понять, подходит ли он вам.",
-      "trust.t1": "Премиальная эстетическая клиника",
-      "trust.t1d": "Спокойная, изысканная атмосфера — для комфорта и уединения.",
-      "trust.t2": "Профессиональная команда",
-      "trust.t2d": "Опытные специалисты сопровождают вас на каждом этапе ритуала.",
-      "trust.t3": "Современные технологии",
-      "trust.t3d": "Осмотермия, Эндосфера и Криотерапия — в одной программе, без разрыва между этапами.",
-      "trust.t4": "Индивидуальный подход",
-      "trust.t4d": "Мы внимательно слушаем ваши цели и помогаем выбрать подходящий уход.",
-      "trust.t5": "Спокойная и приватная атмосфера",
-      "trust.t5d": "Тихое, неспешное пространство, где можно полностью расслабиться и восстановить силы.",
-      "faq.label": "Вопросы",
-      "faq.title": "Частые вопросы",
-      "faq.q1": "Сколько длится Body Rebirth Ritual?",
-      "faq.a1":
-        "Полный ритуал обычно занимает 60–90 минут — все три этапа включены. Точное время уточним, когда вы напишете нам в WhatsApp.",
-      "faq.q2": "Больно ли это?",
-      "faq.a2":
-        "Нет. Body Rebirth Ritual — мягкий, деликатный и неинвазивный. Каждый этап адаптируется под ваш комфорт.",
-      "faq.q3": "Сколько сеансов рекомендуется?",
-      "faq.a3":
-        "Всё зависит от ваших целей и особенностей тела. Многие начинают с курса. Мы порекомендуем план после короткой консультации в WhatsApp.",
-      "faq.q4": "Похудею ли я или избавлюсь от целлюлита навсегда?",
-      "faq.a4":
-        "Body Rebirth Ritual — ритуал восстановления тела, а не программа похудения. Он мягко поддерживает дренаж, тонус кожи и ощущение лёгкости. Результаты у каждой женщины свои.",
-      "faq.q5": "Где находится AIMIE?",
-      "faq.a5":
-        "AIMIE на Кипре. Напишите нам в WhatsApp — пришлём адрес, маршрут и свободные окна для записи.",
-      "final.title": "Готовы почувствовать больше лёгкости в теле?",
+        "В AIMIE общая криотерапия проходит в эстетичном, спокойном и приватном пространстве с персональным вниманием к вашему тренировочному ритму.",
+      "trust.t1.title": "СОВРЕМЕННАЯ КАМЕРА",
+      "trust.t1.text": "Передовая криокамера для всего тела с точным контролем параметров температуры и максимальной безопасностью.",
+      "trust.t2.title": "ОПЫТНАЯ КОМАНДА",
+      "trust.t2.text": "Специалисты сопровождают вас на каждом шагу, выдают экипировку и контролируют весь процесс.",
+      "trust.t3.title": "ПРИВАТНАЯ АТМОСФЕРА",
+      "trust.t3.text": "Эстетичная клиника на Кипре без лишнего шума тренажёрных залов, созданная для полного расслабления.",
+      "trust.t4.title": "ПЕРСОНАЛЬНЫЙ ГРАФИК",
+      "trust.t4.text": "Индивидуальные или парные сеансы подбираются под ваш тренировочный сплит, отдых или старты.",
+
+      // Final CTA
+      "final.eyebrow": "ВАША СЛЕДУЮЩАЯ ТРЕНИРОВКА НАЧИНАЕТСЯ С ВОССТАНОВЛЕНИЯ",
+      "final.title": "ТРЕНИРУЙТЕСЬ. ВОССТАНАВЛИВАЙТЕСЬ. ПОВТОРЯЙТЕ.",
       "final.text":
-        "Напишите AIMIE в WhatsApp, чтобы узнать больше о Body Rebirth Ritual и записаться на консультацию.",
-      "final.note": "Обычно отвечаем в течение нескольких часов.",
-      "footer.text": "Премиальный уход за телом · Кипр",
+        "Сделайте общую криотерапию частью своей спортивной недели в AIMIE. Напишите нам в WhatsApp — мы подберём время и ответим на все вопросы.",
+      "final.cta": "Записаться на криотерапию в WhatsApp",
+      "final.note": "Прямая связь со специалистами AIMIE · Быстрый ответ · Кипр",
+
+      // Sticky Mobile & Footer
+      "sticky.cta": "Записаться на крио",
+      "footer.text": "Общая криотерапия · Спортивное восстановление · Кипр",
       "wa.message":
-        "Здравствуйте! Меня интересует Body Rebirth Ritual в AIMIE. Расскажите, пожалуйста, подробнее и помогите записаться.",
-      "alt.hero": "Премиальный уход за телом в клинике AIMIE",
-      "alt.osmo": "Тёплая подготовка осмотермии — пар и бежевые полотенца",
-      "alt.composite": "AIMIE Body Rebirth Ritual — Осмотермия, Эндосфера и Криотерапия",
-      "alt.explainer": "Body Rebirth Ritual — тепло, стимуляция и охлаждение",
-      "alt.diagram": "Иллюстрация: тонус кожи и поддержка дренажа",
+        "Здравствуйте! Меня интересует криотерапия в AIMIE. Расскажите, пожалуйста, подробнее и помогите записаться.",
+
+      // Image Alt Texts
+      "alt.hero": "Атлеты в криокамере для всего тела в клинике AIMIE",
+      "alt.problem": "Интенсивная тренировка в зале — бег и силовая работа",
+      "alt.chamber": "Современная криокамера с неоновой подсветкой",
+      "alt.duo": "Парный сеанс криотерапии для спортсменов в холодном тумане",
+      "alt.athlete": "Атлет перед сеансом криотерапии в защитной экипировке",
     },
   };
 
@@ -302,13 +359,18 @@
   function applyTranslations(lang) {
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
-      el.textContent = t(lang, key);
+      var text = t(lang, key);
+      if (text) el.textContent = text;
     });
     document.querySelectorAll("[data-i18n-alt]").forEach(function (el) {
-      el.setAttribute("alt", t(lang, el.getAttribute("data-i18n-alt")));
+      var key = el.getAttribute("data-i18n-alt");
+      var text = t(lang, key);
+      if (text) el.setAttribute("alt", text);
     });
     document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
-      el.setAttribute("aria-label", t(lang, el.getAttribute("data-i18n-aria")));
+      var key = el.getAttribute("data-i18n-aria");
+      var text = t(lang, key);
+      if (text) el.setAttribute("aria-label", text);
     });
   }
 
